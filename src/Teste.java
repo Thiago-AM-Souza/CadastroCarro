@@ -25,7 +25,12 @@ public class Teste {
 
         System.out.println("\n\n");
 
-        // for 2
+        for(int k = 0; k < numVeiculos; k++) {
+            System.out.println(carrinhos[k].marca);
+            System.out.println(carrinhos[k].modelo);
+            System.out.println(carrinhos[k].ano);
+            System.out.println("\n");
+        }
 
         input.close();
     }
