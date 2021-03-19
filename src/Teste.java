@@ -11,7 +11,17 @@ public class Teste {
 
         Carro[] carrinhos = new Carro[numVeiculos];
 
-        // for 1
+        for(int j = 0; j < numVeiculos; j++) {
+            carrinhos[j] = new Carro();
+            System.out.print("\nInsira a marca do veículo: ");
+            carrinhos[j].marca = input.next();
+
+            System.out.println("\nInsira o modelo do veículo: ");
+            carrinhos[j].modelo = input.next();
+
+            System.out.println("\nInsira o ano do veículo: ");
+            carrinhos[j].ano = input.nextInt();
+        }
 
         System.out.println("\n\n");
 
